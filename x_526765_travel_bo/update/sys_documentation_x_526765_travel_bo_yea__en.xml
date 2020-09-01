@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_documentation element="" label="hallo" language="en" table="x_526765_travel_bo_hallo">
+    <sys_documentation element="" label="yea" language="en" table="x_526765_travel_bo_yea">
         <sys_documentation action="INSERT_OR_UPDATE">
             <element/>
             <help/>
             <hint/>
-            <label>hallo</label>
+            <label>yea</label>
             <language>en</language>
-            <name>x_526765_travel_bo_hallo</name>
-            <plural>hallos</plural>
+            <name>x_526765_travel_bo_yea</name>
+            <plural>yeas</plural>
             <sys_class_name>sys_documentation</sys_class_name>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-09-01 09:51:42</sys_created_on>
-            <sys_id>535e86a82f0310106fb0de1a2799b633</sys_id>
+            <sys_created_on>2020-09-01 09:59:37</sys_created_on>
+            <sys_id>66fecea82f0310106fb0de1a2799b64e</sys_id>
             <sys_mod_count>0</sys_mod_count>
-            <sys_name>hallo</sys_name>
+            <sys_name>yea</sys_name>
             <sys_package display_value="Travel Booking Application " source="x_526765_travel_bo">9f870a242f0310106fb0de1a2799b627</sys_package>
             <sys_policy/>
             <sys_scope display_value="Travel Booking Application ">9f870a242f0310106fb0de1a2799b627</sys_scope>
-            <sys_update_name>sys_documentation_x_526765_travel_bo_hallo__en</sys_update_name>
+            <sys_update_name>sys_documentation_x_526765_travel_bo_yea__en</sys_update_name>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-09-01 09:51:42</sys_updated_on>
+            <sys_updated_on>2020-09-01 09:59:37</sys_updated_on>
             <url/>
             <url_target/>
         </sys_documentation>
