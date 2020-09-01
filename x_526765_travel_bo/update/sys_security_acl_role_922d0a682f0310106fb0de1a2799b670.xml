@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-09-01 09:51:41</sys_created_on>
+        <sys_id>922d0a682f0310106fb0de1a2799b670</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_526765_travel_bo_hallo.x_526765_travel_bo.hallo_user</sys_name>
+        <sys_package display_value="Travel Booking Application " source="x_526765_travel_bo">9f870a242f0310106fb0de1a2799b627</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Travel Booking Application ">9f870a242f0310106fb0de1a2799b627</sys_scope>
+        <sys_security_acl display_value="x_526765_travel_bo_hallo">162d0a682f0310106fb0de1a2799b66d</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_922d0a682f0310106fb0de1a2799b670</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-01 09:51:41</sys_updated_on>
+        <sys_user_role display_value="x_526765_travel_bo.hallo_user" name="x_526765_travel_bo.hallo_user">4a2dcea42f0310106fb0de1a2799b68b</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+</record_update>
