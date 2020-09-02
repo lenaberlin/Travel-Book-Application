@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>destination</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>Get destination weather summary</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+    if (isLoading || newValue === '') {
+        return;
+    }
+
+    var loc = g_form.getReference("destination", getWeatherSummary);
+}
+
+function getWeatherSummary(destination) {
+    var ga = new GlideAjax("x_8940_travel_book.CheckWeather");
+    ga.addParam('sysparm_name', 'getWeatherConditionSummary');
+    ga.addParam('sysparm_cityname', destination.name);
+    ga.getXML(CheckWeatherCallback);
+}
+
+function CheckWeatherCallback(response) {
+    var answer = response.responseXML.documentElement.getAttribute("answer");
+    g_form.showErrorBox("destination", answer);
+}
+
+]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-09-02 10:51:50</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>da83a7b42f4f10106fb0de1a2799b6bd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Get destination weather summary</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Travel Booking Application " source="x_526765_travel_bo">9f870a242f0310106fb0de1a2799b627</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Travel Booking Application ">9f870a242f0310106fb0de1a2799b627</sys_scope>
+        <sys_update_name>sys_script_client_da83a7b42f4f10106fb0de1a2799b6bd</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-02 10:51:50</sys_updated_on>
+        <table>x_526765_travel_bo_booking_request</table>
+        <type>onChange</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

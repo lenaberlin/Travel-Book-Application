@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_application">
+    <sys_ui_application action="DELETE">
+        <active>true</active>
+        <hint/>
+        <name>Booking Request</name>
+        <order/>
+        <roles>x_526765_travel_bo.booking_request_user</roles>
+        <sys_class_name>sys_ui_application</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-09-01 10:29:34</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>69d51aec2f0310106fb0de1a2799b6fd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Booking Request</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Travel Booking Application " source="x_526765_travel_bo">9f870a242f0310106fb0de1a2799b627</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Travel Booking Application ">9f870a242f0310106fb0de1a2799b627</sys_scope>
+        <sys_update_name>sys_ui_application_69d51aec2f0310106fb0de1a2799b6fd</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-01 10:29:34</sys_updated_on>
+    </sys_ui_application>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Travel Booking Application ">9f870a242f0310106fb0de1a2799b627</application>
+        <file_path/>
+        <instance_id>5a7a74e4db36485491232f17d49619bd</instance_id>
+        <instance_name>dev99045</instance_name>
+        <name>sys_ui_application_69d51aec2f0310106fb0de1a2799b6fd</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_application"><sys_ui_application action="INSERT_OR_UPDATE"><active>true</active><hint/><name>Booking Request</name><order/><roles>x_526765_travel_bo.booking_request_user</roles><sys_class_name>sys_ui_application</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-09-01 10:29:34</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>69d51aec2f0310106fb0de1a2799b6fd</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Booking Request</sys_name><sys_overrides/><sys_package display_value="Travel Booking Application " source="x_526765_travel_bo">9f870a242f0310106fb0de1a2799b627</sys_package><sys_policy/><sys_scope display_value="Travel Booking Application ">9f870a242f0310106fb0de1a2799b627</sys_scope><sys_update_name>sys_ui_application_69d51aec2f0310106fb0de1a2799b6fd</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-09-01 10:29:34</sys_updated_on></sys_ui_application></record_update>]]></payload>
+        <payload_hash>-818325023</payload_hash>
+        <record_name>Booking Request</record_name>
+        <reverted_from/>
+        <source>a1d316ac2f0310106fb0de1a2799b68f</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-09-01 10:29:34</sys_created_on>
+        <sys_id>69d55aec2f0310106fb0de1a2799b60b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1744936fe700000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-01 10:29:34</sys_updated_on>
+        <type>Application Menu</type>
+        <update_guid>a1d55aecdb031010e93658b5bc7a070b</update_guid>
+        <update_guid_history>a1d55aecdb031010e93658b5bc7a070b:-818325023</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-09-01 10:33:51</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_application">sys_ui_application</sys_db_object>
+        <sys_id>92457176a3a74f54b583eb6204167410</sys_id>
+        <sys_metadata>69d51aec2f0310106fb0de1a2799b6fd</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Booking Request</sys_name>
+        <sys_package display_value="Travel Booking Application " source="x_526765_travel_bo">9f870a242f0310106fb0de1a2799b627</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Travel Booking Application ">9f870a242f0310106fb0de1a2799b627</sys_scope>
+        <sys_scope_delete display_value="">10dff91cbaa141988168a57f50ceeda4</sys_scope_delete>
+        <sys_update_name>sys_ui_application_69d51aec2f0310106fb0de1a2799b6fd</sys_update_name>
+        <sys_update_version display_value="sys_ui_application_69d51aec2f0310106fb0de1a2799b6fd">69d55aec2f0310106fb0de1a2799b60b</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-01 10:33:51</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

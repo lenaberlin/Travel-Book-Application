@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_526765_travel_bo.CheckWeather</api_name>
+        <caller_access/>
+        <client_callable>true</client_callable>
+        <description/>
+        <name>CheckWeather</name>
+        <script><![CDATA[
+var CheckWeather = Class.create();
+CheckWeather.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+    _privateFunction: function() {
+        //private function starts with an underscore
+    },
+    getWeatherConditionSummary: function() {
+        return "Weather in " + this.getParameter(sysparm_cityname) + " seems normal!";
+    },
+    type: 'CheckWeather'
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-09-02 10:47:10</sys_created_on>
+        <sys_id>e8926f742f4f10106fb0de1a2799b66e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>CheckWeather</sys_name>
+        <sys_package display_value="Travel Booking Application " source="x_526765_travel_bo">9f870a242f0310106fb0de1a2799b627</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Travel Booking Application ">9f870a242f0310106fb0de1a2799b627</sys_scope>
+        <sys_update_name>sys_script_include_e8926f742f4f10106fb0de1a2799b66e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-02 10:47:10</sys_updated_on>
+    </sys_script_include>
+</record_update>
