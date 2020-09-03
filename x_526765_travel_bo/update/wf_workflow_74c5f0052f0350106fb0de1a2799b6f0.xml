@@ -33,12 +33,12 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-09-02 19:08:37</sys_created_on>
         <sys_id>d63651012f8350106fb0de1a2799b6e4</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>7</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-09-02 19:25:04</sys_updated_on>
+        <sys_updated_on>2020-09-03 08:14:59</sys_updated_on>
         <table>x_526765_travel_bo_booking_request</table>
         <timezone/>
-        <validated>false</validated>
+        <validated>true</validated>
         <workflow display_value="Get current weather info">74c5f0052f0350106fb0de1a2799b6f0</workflow>
     </wf_workflow_version>
     <wf_workflow action="INSERT_OR_UPDATE">
