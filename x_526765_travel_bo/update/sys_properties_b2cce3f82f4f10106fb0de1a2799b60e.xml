@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_properties">
+    <sys_properties action="INSERT_OR_UPDATE">
+        <choices/>
+        <description>Check weather at destination</description>
+        <ignore_cache>false</ignore_cache>
+        <is_private>false</is_private>
+        <name>x_526765_travel_bo.check_weather_destination</name>
+        <read_roles/>
+        <suffix>check_weather_destination</suffix>
+        <sys_class_name>sys_properties</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-09-02 11:29:30</sys_created_on>
+        <sys_id>b2cce3f82f4f10106fb0de1a2799b60e</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>x_526765_travel_bo.check_weather_destination</sys_name>
+        <sys_package display_value="Travel Booking Application " source="x_526765_travel_bo">9f870a242f0310106fb0de1a2799b627</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Travel Booking Application ">9f870a242f0310106fb0de1a2799b627</sys_scope>
+        <sys_update_name>sys_properties_b2cce3f82f4f10106fb0de1a2799b60e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-02 14:08:44</sys_updated_on>
+        <type>boolean</type>
+        <value>false</value>
+        <write_roles/>
+    </sys_properties>
+    <sys_translated_text action="delete_multiple" query="documentkey=b2cce3f82f4f10106fb0de1a2799b60e"/>
+</record_update>

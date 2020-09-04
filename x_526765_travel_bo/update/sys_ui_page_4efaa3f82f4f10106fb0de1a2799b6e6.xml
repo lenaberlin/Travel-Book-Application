@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_page">
+    <sys_ui_page action="INSERT_OR_UPDATE">
+        <category>general</category>
+        <client_script/>
+        <description/>
+        <direct>false</direct>
+        <endpoint>x_526765_travel_bo_app_properties.do</endpoint>
+        <html><![CDATA[<?xml version="1.0" encoding="utf-8" ?> 
+<j:jelly trim="false" xmlns:j="jelly:core" xmlns:g="glide" xmlns:j2="null" xmlns:g2="null"> 
+<g:evaluate var="jvar_weather_from"> 
+   var weather_from = gs.getProperty('x_526765_travel_bo.check_weather_from'); 
+   weather_from; 
+</g:evaluate> 
+<g:evaluate var="jvar_weather_destination"> 
+   var weather_destination = gs.getProperty('x_526765_travel_bo.check_weather_destination'); 
+   weather_destination; 
+</g:evaluate> 
+<g:ui_form> 
+   <table style="border-collapse: separate; border-spacing: 5px 5px;"> 
+   <tr> 
+         <th></th> 
+         <th>Travel booking application settings description</th> 
+   </tr> 
+   <tr><td colspan="2" height="15px"></td></tr> 
+   <tr> 
+         <td><g:ui_checkbox name="check_weather_from"  
+         value="${jvar_weather_from}" /></td> 
+         <td>Do you want to check latest weather condition at From location?</td> 
+   </tr> 
+   <tr> 
+         <td><g:ui_checkbox name="check_weather_destination"  
+         value="${jvar_weather_destination}" /></td> 
+         <td>Do you want to check latest weather condition at Destination location?</td> 
+   </tr> 
+   <tr><td colspan="2" height="15px"></td></tr> 
+   <tr><td colspan="2"> 
+         <g:dialog_buttons_ok_cancel ok="return true" 
+               cancel="return false"/> 
+   </td></tr> 
+   </table> 
+</g:ui_form> 
+</j:jelly> ]]></html>
+        <name>app_properties</name>
+        <processing_script><![CDATA[//set the value of the check_weather_from system property 
+gs.setProperty("x_526765_travel_bo.check_weather_from", check_weather_from); 
+ 
+//set the value of the check_weather_destination sys property 
+gs.setProperty("x_526765_travel_bo.check_weather_destination", check_weather_destination);]]></processing_script>
+        <sys_class_name>sys_ui_page</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-09-02 11:22:18</sys_created_on>
+        <sys_id>4efaa3f82f4f10106fb0de1a2799b6e6</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>app_properties</sys_name>
+        <sys_package display_value="Travel Booking Application " source="x_526765_travel_bo">9f870a242f0310106fb0de1a2799b627</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Travel Booking Application ">9f870a242f0310106fb0de1a2799b627</sys_scope>
+        <sys_update_name>sys_ui_page_4efaa3f82f4f10106fb0de1a2799b6e6</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-02 14:08:20</sys_updated_on>
+    </sys_ui_page>
+</record_update>
