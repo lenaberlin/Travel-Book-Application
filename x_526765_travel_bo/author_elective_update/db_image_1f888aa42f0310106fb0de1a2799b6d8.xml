@@ -96,7 +96,7 @@
         <update_guid_history>d12946a42e03101089cc9d687ea5400b:747304866,642946a44f031010b7175886e2f7fe07:-287838761,3d09caa463031010d2d93992ef0a8303:781263720,4ee84ea4ed03101049311597a115f1fc:-913395611,dde84ea4e5031010c57f59edefe027f8:1178344729,ece84ea4fa0310109b9860325cd44ff5:921499211,e8d846a4cc031010cb15939ae0380d7d:-289824584</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Tours.v1.png">6ceb86e42f0310106fb0de1a2799b6b9</sys_audit_delete>
+        <sys_audit_delete display_value="">6ceb86e42f0310106fb0de1a2799b6b9</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-09-01 09:46:06</sys_created_on>

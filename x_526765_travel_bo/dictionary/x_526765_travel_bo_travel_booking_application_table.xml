@@ -1,3 +1,3 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element label="Travel Booking Application Table" max_length="40" name="x_526765_travel_bo_travel_booking_application_table" sizeclass="0" type="collection"/>
+    <element label="Travel Booking Application Table" max_length="40" name="x_526765_travel_bo_travel_booking_application_table" type="collection"/>
 </database>

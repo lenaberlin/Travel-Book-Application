@@ -106,7 +106,7 @@
         <update_guid_history>235e86a8e4031010a59b0ca2afa4305f:0,8d5e06a8c0031010f402684e0defc9c9:-874819132,8a2d0a68e60310101617ccb73c194e5e:-432362402</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="hallos">b0d2566c2f0310106fb0de1a2799b676</sys_audit_delete>
+        <sys_audit_delete display_value="">b0d2566c2f0310106fb0de1a2799b676</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-09-01 10:16:25</sys_created_on>

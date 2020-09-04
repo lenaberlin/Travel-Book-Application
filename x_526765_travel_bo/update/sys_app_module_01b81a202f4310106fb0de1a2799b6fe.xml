@@ -3,6 +3,7 @@
         <active>true</active>
         <application display_value="Travel Booking">869692202f4310106fb0de1a2799b628</application>
         <assessment/>
+        <content_page/>
         <device_type/>
         <filter table="x_526765_travel_bo_booking_request">assigned_toISEMPTY^assignment_groupISEMPTY^EQ<item endquery="false" field="assigned_to" goto="false" newquery="false" operator="ISEMPTY" or="false" value=""/>
             <item endquery="false" field="assignment_group" goto="false" newquery="false" operator="ISEMPTY" or="false" value=""/>

@@ -60,7 +60,7 @@
         <update_guid_history>a35e86a8f4031010482687a97d560f75:0,095e06a858031010cf1141fe349514af:-731498829,922d0a688503101048bc83777a934a72:513461717</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="x_526765_travel_bo_hallo.x_526765_travel_bo.hallo_user">a4d2566c2f0310106fb0de1a2799b660</sys_audit_delete>
+        <sys_audit_delete display_value="">a4d2566c2f0310106fb0de1a2799b660</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-09-01 10:16:24</sys_created_on>

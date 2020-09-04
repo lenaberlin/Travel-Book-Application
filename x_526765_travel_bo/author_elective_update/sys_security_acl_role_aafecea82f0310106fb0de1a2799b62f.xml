@@ -42,7 +42,7 @@
         <update_guid_history>26fecea8e0031010b38a055b5f05f932:1951666114</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="x_526765_travel_bo_yea.x_526765_travel_bo.yea_user">45e2d66c2f0310106fb0de1a2799b64e</sys_audit_delete>
+        <sys_audit_delete display_value="">45e2d66c2f0310106fb0de1a2799b64e</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-09-01 10:16:43</sys_created_on>

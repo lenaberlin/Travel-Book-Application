@@ -4,22 +4,22 @@
         <license_condition/>
         <license_model>none</license_model>
         <license_roles/>
-        <name>x_526765_travel_bo_booking_request</name>
+        <name>x_526765_travel_bo_tabletest</name>
         <op_delete>true</op_delete>
         <op_insert>true</op_insert>
         <op_update>true</op_update>
         <owner_condition/>
         <sys_class_name>ua_table_licensing_config</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-09-01 10:29:36</sys_created_on>
-        <sys_id>75d55aec2f0310106fb0de1a2799b650</sys_id>
+        <sys_created_on>2020-09-04 08:30:51</sys_created_on>
+        <sys_id>236795652f031010003359a72799b62c</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>x_526765_travel_bo_booking_request</sys_name>
+        <sys_name>x_526765_travel_bo_tabletest</sys_name>
         <sys_package display_value="Travel Booking Application " source="x_526765_travel_bo">9f870a242f0310106fb0de1a2799b627</sys_package>
         <sys_policy/>
         <sys_scope display_value="Travel Booking Application ">9f870a242f0310106fb0de1a2799b627</sys_scope>
-        <sys_update_name>ua_table_licensing_config_75d55aec2f0310106fb0de1a2799b650</sys_update_name>
+        <sys_update_name>ua_table_licensing_config_236795652f031010003359a72799b62c</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-09-01 10:29:36</sys_updated_on>
+        <sys_updated_on>2020-09-04 08:30:51</sys_updated_on>
     </ua_table_licensing_config>
 </record_update>
